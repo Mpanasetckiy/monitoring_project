@@ -2,44 +2,55 @@ import React, { useState, useEffect } from "react";
 
 import Sidebar from "./Sidebar";
 
-import dataSource from "../data/russia.json";
+// Models
+import { Application } from "../models/application";
+import { Category } from "../models/category";
+import { Group } from "../models/group";
 
-type Application = {
-  Year: number;
-  Quarter: string;
-  Nationality: string;
-  Region: string;
-  "Case type": string;
-  "Case outcome group": string;
-  "Case outcome": string;
-  Age: string;
-  Sex: string;
-  "Applicant type": string;
-  UASC: string;
-  "Host Country": string;
-  Decisions: number;
-};
+import dataSource from "../data/russia.json";
 
 const Main: React.FC = () => {
   const [data, setData] = useState<Application[]>(dataSource);
+  const [selectedCategory, setSelectedCategory] = useState<Category>(
+    "INTERNATIONAL PROTECTION"
+  );
+  const [selectedGroup, setSelectedGroup] = useState<Group>(null);
 
   const myAge = data.filter((application) => {
     return application.Age === "18-29" && application.Sex === "Male";
   });
-  console.log(myAge);
+  // console.log(myAge);
+
+  const handleCategoryChange = (selectedCategory: Category) => {
+    setSelectedCategory(selectedCategory);
+  };
+
+  const handleGroupChange = (selectedGroup: Group) => {
+    setSelectedGroup(selectedGroup);
+  };
+
+  console.log(selectedCategory, selectedGroup);
 
   return (
     <div className="main-container">
-      <Sidebar />
+      <Sidebar
+        selectedCategory={selectedCategory}
+        onChangeBtn={handleCategoryChange}
+        selectedGroup={selectedGroup}
+        onChangeGroup={handleGroupChange}
+      />
       <div className="content">
         <div className="content__header">
-          <h4>International Protection</h4>
+          <h4>{selectedGroup || selectedCategory}</h4>
           <p>
-            According to European Union directives international protection is
-            defined as refugee status or subsidiary protection status. Those who
-            receive a positive decision also receive a residence permit. These
-            statistics include decisions on international protection as well as
-            decisions on residence permits for asylum seekers.
+            International protection, under UK law, denotes the legal safeguard
+            granted to individuals facing a genuine and well-founded fear of
+            persecution in their home country. It includes the recognition of
+            refugee status or subsidiary protection, offering the right to
+            reside in the UK and protection against forced return. This
+            protection is contingent on demonstrating a credible threat of
+            persecution based on factors such as race, religion, nationality,
+            political opinion, or membership in a particular social group.
           </p>
           <span></span>
           <div className="content__range-selector">

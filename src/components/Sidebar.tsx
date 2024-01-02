@@ -1,42 +1,142 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
-import M from "materialize-css";
+// Models
+import { Category } from "../models/category";
+import { Group } from "../models/group";
+
 import "materialize-css/dist/css/materialize.min.css";
 
-const Sidebar: React.FC = () => {
+type SidebarProps = {
+  selectedCategory: Category;
+  onChangeBtn: (selectedCategory: Category) => void;
+  selectedGroup: Group;
+  onChangeGroup: (selectedGroup: Group) => void;
+};
+
+const Sidebar: React.FC<SidebarProps> = ({
+  selectedCategory,
+  onChangeBtn,
+  selectedGroup,
+  onChangeGroup,
+}) => {
+  const [selectedCatValue, setSelectedCatValue] =
+    useState<Category>(selectedCategory);
+  const [selectedGroupValue, setSelectedGroupValue] = useState<Group>(null);
+
+  const handleCategoryChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const newValue = event.target.value as Category;
+    setSelectedCatValue(newValue);
+    onChangeBtn(newValue);
+    setSelectedGroupValue(null);
+    onChangeGroup(null);
+  };
+
+  const handleGroupChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const newValue = event.target.value as Group;
+    setSelectedGroupValue(newValue);
+    onChangeGroup(newValue);
+  };
+
   useEffect(() => {
-    // Initialize Materialize components
-    const collapsibles = document.querySelectorAll(".collapsible");
-    M.Collapsible.init(collapsibles, { accordion: false });
-  }, []);
+    if (selectedCategory === "INTERNATIONAL PROTECTION") {
+      setSelectedGroupValue(selectedGroup);
+    }
+  }, [selectedCategory, selectedGroup]);
 
   return (
-    <div className="row">
-      <div className="col">
-        <ul className="collection with-header">
-          <li className="collection-header">
-            <span>Choose a matter</span>
-          </li>
-          <li className="collection-item">
-            <label>
-              <input type="radio" name="year" />
-              <span>RESIDENCE PERMIT</span>
-            </label>
-          </li>
-          <li className="collection-item">
-            <label>
-              <input type="radio" name="year" defaultChecked={true} />
-              <span>INTERNATIONAL PROTECTION</span>
-            </label>
-          </li>
-          <li className="collection-item">
-            <label>
-              <input type="radio" name="year" />
-              <span>CITIZENSHIP</span>
-            </label>
-          </li>
-        </ul>
+    <div>
+      <div className="row">
+        <div className="col">
+          <ul className="collection with-header">
+            <li className="collection-header">
+              <span>Choose a category</span>
+            </li>
+            <li className="collection-item">
+              <label>
+                <input
+                  type="radio"
+                  name="category"
+                  value="RESIDENCE PERMIT"
+                  checked={selectedCatValue === "RESIDENCE PERMIT"}
+                  onChange={handleCategoryChange}
+                />
+                <span>RESIDENCE PERMIT</span>
+              </label>
+            </li>
+            <li className="collection-item">
+              <label>
+                <input
+                  type="radio"
+                  name="category"
+                  value="INTERNATIONAL PROTECTION"
+                  checked={selectedCatValue === "INTERNATIONAL PROTECTION"}
+                  onChange={handleCategoryChange}
+                />
+                <span>INTERNATIONAL PROTECTION</span>
+              </label>
+            </li>
+            <li className="collection-item">
+              <label>
+                <input
+                  type="radio"
+                  name="category"
+                  value="CITIZENSHIP"
+                  checked={selectedCatValue === "CITIZENSHIP"}
+                  onChange={handleCategoryChange}
+                />
+                <span>CITIZENSHIP</span>
+              </label>
+            </li>
+          </ul>
+        </div>
       </div>
+      {selectedCategory === "INTERNATIONAL PROTECTION" ? (
+        <div className="row">
+          <div className="col">
+            <ul className="collection with-header">
+              <li className="collection-header">
+                <span>Choose a group</span>
+              </li>
+              <li className="collection-item">
+                <label>
+                  <input
+                    type="radio"
+                    name="group"
+                    value="REFUGEE PERMISSION"
+                    checked={selectedGroupValue === "REFUGEE PERMISSION"}
+                    onChange={handleGroupChange}
+                  />
+                  <span>REFUGEE PERMISSION</span>
+                </label>
+              </li>
+              <li className="collection-item">
+                <label>
+                  <input
+                    type="radio"
+                    name="group"
+                    value="HUMANITARIAN PROTECTION"
+                    checked={selectedGroupValue === "HUMANITARIAN PROTECTION"}
+                    onChange={handleGroupChange}
+                  />
+                  <span>HUMANITARIAN PROTECTION</span>
+                </label>
+              </li>
+              <li className="collection-item">
+                <label>
+                  <input
+                    type="radio"
+                    name="group"
+                    value="DISCRETIONARY LEAVE"
+                    checked={selectedGroupValue === "DISCRETIONARY LEAVE"}
+                    onChange={handleGroupChange}
+                  />
+                  <span>DISCRETIONARY LEAVE</span>
+                </label>
+              </li>
+            </ul>
+          </div>
+        </div>
+      ) : null}
     </div>
   );
 };
