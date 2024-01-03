@@ -1,4 +1,5 @@
 export type Category =
   | "INTERNATIONAL PROTECTION"
   | "RESIDENCE PERMIT"
-  | "CITIZENSHIP";
+  | "CITIZENSHIP"
+  | null;

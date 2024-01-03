@@ -1,0 +1,184 @@
+[
+  {
+    "Case outcome": "Refugee Permission",
+    "Case outcome group": "Grant of protection",
+    "Definition": "Refugee status (previously known as ‘asylum’) is granted to asylum applicants, under paragraph 334, Part 11 of the Immigration Rules, to recognise that they have a well-founded fear of persecution in their country of origin or country of former habitual residence for reasons of race, religion, nationality, political opinion or membership in a particular social group. In addition to refugee status, refugee permission to stay is granted where the asylum applicant meets the requirements of Section 12(2) and (3) of the Nationality and Borders Act 2022 (‘2022 Act’). ",
+    "Terms of leave": "Where refugee status is granted, permission to stay in the UK is normally granted concurrently for a period of five years.\n\nIndividuals with refugee status and refugee permission to stay are allowed to work and study and have access to family reunion. If they were in receipt of asylum support, cash payments will stop 28 days after the decision and they will also have to move out of any asylum support housing.",
+    "Time period (if applicable)": ""
+  },
+  {
+    "Case outcome": "INTERNATIONAL PROTECTION",
+    "Case outcome group": "Grant of protection",
+    "Definition": "International protection, under UK law, denotes the legal safeguard granted to individuals facing a genuine and well-founded fear of persecution in their home country. It includes the recognition of refugee status or subsidiary protection, offering the right to reside in the UK and protection against forced return. This protection is contingent on demonstrating a credible threat of persecution based on factors such as race, religion, nationality, political opinion, or membership in a particular social group",
+    "Terms of leave": "Where refugee status is granted, permission to stay in the UK is normally granted concurrently for a period of five years.\n\nIndividuals with refugee status and refugee permission to stay are allowed to work and study and have access to family reunion. If they were in receipt of asylum support, cash payments will stop 28 days after the decision and they will also have to move out of any asylum support housing.",
+    "Time period (if applicable)": ""
+  },
+  {
+    "Case outcome": "Humanitarian Protection",
+    "Case outcome group": "Grant of protection",
+    "Definition": "Granted to a person who does not require protection for reasons covered by the Refugee Convention but who would, if removed, face a real risk to life or person in the country of origin or country of former habitual residence. These risks include a threat to life (for example from the death penalty, unlawful killing), torture, inhuman or degrading treatment; or serious threat by reason of indiscriminate violence in situations of international or internal armed conflict. ",
+    "Terms of leave": "Where humanitarian protection is granted, leave to remain is usually granted for a period of five years. However, where exceptional circumstances exist, indefinite leave to remain may be granted. After five years the claimant can apply for settlement protection (indefinite leave to remain). Individuals who are granted HP are allowed to work and study, and have access to public funds (e.g. health care, benefits). If they were in receipt of asylum support, cash payments will stop 28 days after the decision and they will also have to move out of any asylum support housing. ",
+    "Time period (if applicable)": "2003 - present"
+  },
+  {
+    "Case outcome": "Temporary Refugee Permission",
+    "Case outcome group": "Grant of protection",
+    "Definition": "Refugee status (previously known as ‘asylum’) is granted to asylum applicants, under paragraph 334, Part 11 of the Immigration Rules, to recognise that they have a well-founded fear of persecution in their country of origin or country of former habitual residence for reasons of race, religion, nationality, political opinion or membership in a particular social group. In addition to refugee status, temporary refugee permission to stay is granted where the asylum applicant fails to meet one or more of the requirements of Section 12(2) and (3) of the Nationality and Borders Act 2022 (‘2022 Act’), and may be given lesser entitlements as a result. ",
+    "Terms of leave": "Section 12 of the Nationality and Borders Act 2022 introduced the differentiation policy. For asylum applicants recognised as refugees, consideration was also given as to whether they were a Group 1 refugee or Group 2 refugee with different entitlements being provided to both groups. This policy was paused on 17 July 2023 and Group 2 refugees will have their permission to stay varied to become refugee permission to stay for a minimum of five years in due course.",
+    "Time period (if applicable)": "28 June 2022 - 17 July 2023"
+  },
+  {
+    "Case outcome": "Discretionary leave",
+    "Case outcome group": "Grant of Other leave",
+    "Definition": "Granted to an individual who does not qualify for international protection (asylum or Humanitarian Protection) but who is able to demonstrate particularly compelling reasons why removal would not be appropriate. ",
+    "Terms of leave": "The period of leave granted is determined on a case-by-case basis but would not normally be for more than 30 months (two and a half years) at a time. An initial grant of DL does not mean the claimant will be entitled to further leave or settlement. This is subject to a review of the claimants circumstances. Prior to July 2012, and individual would have been granted a leave period of 3 years. Individuals granted discretionary leave are allowed to work and study (some conditions apply), and have access to public funds (e.g. health care, benefits).",
+    "Time period (if applicable)": "2003 - present"
+  },
+  {
+    "Case outcome": "Exceptional leave to remain",
+    "Case outcome group": "Grant of Other leave",
+    "Definition": "Granted to those who do not qualify for protection under the Refugee Convention but return to the country of origin would result in the applicant being subjected to torture or other cruel, inhuman or degrading treatment, or where the removal would result in an unjustifiable break up of family life. Superseded by Discretionary Leave and Humanitarian Protection in 2003, but which may be granted on some cases lodged before this date, and with an outcome in a later year.",
+    "Terms of leave": "",
+    "Time period (if applicable)": "Until 2003"
+  },
+  {
+    "Case outcome": "UASC Leave",
+    "Case outcome group": "Grant of Other leave",
+    "Definition": "Granted to UASC who do not qualify for refugee status or humanitarian protection, if they are under 17.5 years old and cannot be returned because there are no adequate reception arrangements in the country to which they would be returned. Prior to April 2013 a UASC may have been granted ‘discretionary leave’.",
+    "Terms of leave": "UASC leave is granted for a period of 30 months or until the child turns 17.5 years old, whichever is shorter",
+    "Time period (if applicable)": "April 2013 – present"
+  },
+  {
+    "Case outcome": "Calais leave",
+    "Case outcome group": "Grant of Other leave",
+    "Definition": "Granted to individuals who, as part of the clearance of the Calais camp in in October 2016, were transferred to the UK to reunite with family but did not qualify for international protection (such as refugee status or humanitarian protection). ",
+    "Terms of leave": "Those granted Calais leave, and their dependants who received leave in line, received a residence permit with a validity of 5 years. Calais leave is a separate form of leave to Section 67 of the Immigration Act 2016 leave.",
+    "Time period (if applicable)": "Q1 2019 – Q2 2019"
+  },
+  {
+    "Case outcome": "Leave to remain under family or private life rules",
+    "Case outcome group": "Grant of Other leave",
+    "Definition": "Private Life: grant of leave to remain in the UK because the person has established a private life in the UK. In order to be eligible to apply for leave to remain on the basis of private life in the UK, the applicant must have resided continuously in the UK for at least 20 years or be able to demonstrate that there are very significant obstacles to their integration in the country to which they would return. For young people aged between 18 and 24 the applicant must have resided continuously in the UK for at least half of their life, and for children aged under 18 the applicant must have resided continuously in the UK for at least 7 years and show that it would not be reasonable to expect them to leave the UK. Applicants can only apply for this route from within the UK.",
+    "Terms of leave": "Applicants are granted leave to remain for a period of 30 months, on a 10-year route to settlement. This grant of leave is normally subject to a condition of no recourse to public funds, unless there are exceptional circumstances (e.g. the applicant is destitute, or compelling reasons relating to the welfare of a child).",
+    "Time period (if applicable)": "July 2012 – present"
+  },
+  {
+    "Case outcome": "Leave outside the rules",
+    "Case outcome group": "Grant of Other leave",
+    "Definition": "Granted in exceptional circumstances, on compelling compassionate grounds, which mean that a refusal would result in unjustifiably harsh consequences for the applicant or their family, but which do not render refusal a breach of ECHR Article 8, Article 3, refugee convention or other obligations.",
+    "Terms of leave": "The period of leave granted depends on the case - that is, it will be of a duration that is suitable to accommodate or overcome the compassionate compelling grounds raised. Most successful applicants would require leave for a specific, often short, one-off period; indefinite leave to enter or remain can be granted where circumstances warrant it, but such cases are rare. Applicants who are granted leave outside the rules (LOTR) are not considered to be on a route to settlement (indefinite leave to remain) unless leave is granted in a specific concessionary route to settlement.",
+    "Time period (if applicable)": "April 2013 - present"
+  },
+  {
+    "Case outcome": "Certified refusal",
+    "Case outcome group": "Refusal",
+    "Definition": "An asylum claim is certified where the claim is ‘clearly unfounded’. This means that the claimant cannot, on any legitimate view, qualify for refugee status, Humanitarian Protection, Discretionary Leave or leave to remain under family or private life rules.",
+    "Terms of leave": "No leave is granted. A certified decision also removes the right of appeal. Destitute failed asylum seekers may obtain support (Section 4 support) if they are taking all reasonable steps to leave the UK or are unable to leave because of a legal or practical obstacle.",
+    "Time period (if applicable)": ""
+  },
+  {
+    "Case outcome": "Other refusal",
+    "Case outcome group": "Refusal",
+    "Definition": "Refusals for claims where the claimant does not meet the requirements for refugee status, Humanitarian Protection, Discretionary Leave or leave to remain under family or private life rules. Includes cases where the claim is inadmissible (e.g. from EU applicants).",
+    "Terms of leave": "No leave is granted. Destitute failed asylum seekers may obtain support (Section 4 support) if they are taking all reasonable steps to leave the UK or are unable to leave because of a legal or practical obstacle.",
+    "Time period (if applicable)": ""
+  },
+  {
+    "Case outcome": "Third country refusal",
+    "Case outcome group": "Refusal",
+    "Definition": "An asylum claim is refused without substantive consideration if the applicant is believed to have reached a (safe) third country prior to claiming in the UK.",
+    "Terms of leave": "No leave is granted. Destitute failed asylum seekers may obtain support (Section 4 support) if they are taking all reasonable steps to leave the UK or are unable to leave because of a legal or practical obstacle.",
+    "Time period (if applicable)": ""
+  },
+  {
+    "Case outcome": "Non-compliance refusal",
+    "Case outcome group": "Refusal",
+    "Definition": "An asylum claim refused on non-compliance grounds signifies a failure to cooperate with the process to examine and decide the asylum claim within a reasonable period, for example where the applicant fails to attend the substantive interview. Applications lodged after February 2015 may not be refused on non-compliance grounds, but may instead be treated as non-substantiated withdrawals. As a result, very few initial decisions since 2015 have resulted in a ‘non-compliance refusal’.",
+    "Terms of leave": "No leave is granted. Destitute failed asylum seekers may obtain support (Section 4 support) if they are taking all reasonable steps to leave the UK or are unable to leave because of a legal or practical obstacle.",
+    "Time period (if applicable)": "Until February 2015"
+  },
+  {
+    "Case outcome": "Non-substantiated withdrawal",
+    "Case outcome group": "Withdrawal",
+    "Definition": "An asylum claim is considered to be implicitly withdrawn (a ‘non-substantiated withdrawal’) if the applicant fails to cooperate with the process to examine and decide the asylum claim within a reasonable period. This includes where the applicant fails to attend the substantive interview, or (since February 2015) leaves the UK prior to the conclusion of the application without authorisation, or fails to complete an asylum questionnaire as requested.",
+    "Terms of leave": "No leave is granted.",
+    "Time period (if applicable)": "April 2008 - present"
+  },
+  {
+    "Case outcome": "Other withdrawal",
+    "Case outcome group": "Withdrawal",
+    "Definition": "An asylum claim can be withdrawn explicitly (i.e. if the applicant signs a form to withdraw an application), or withdrawn if the applicant leaves the UK prior to a decision. ",
+    "Terms of leave": "No leave is granted.",
+    "Time period (if applicable)": ""
+  },
+  {
+    "Case outcome": "Resettlement - Gateway Protection Programme",
+    "Case outcome group": "Grant of protection",
+    "Definition": "This scheme aimed to resettle 750 refugees per (financial) year who had been living in a protracted refugee situation for over five years and offered support to those with an urgent need for resettlement. This scheme was replaced by the UK Resettlement Scheme. ",
+    "Terms of leave": "Individuals who were resettled through this scheme were granted refugee status and provided with a twelve-month package of housing and integration support. After 5 years of continuous residency, refugees are eligible for Indefinite Leave to Remain.",
+    "Time period (if applicable)": "2004 - March 2020"
+  },
+  {
+    "Case outcome": "Resettlement - Mandate Resettlement Scheme",
+    "Case outcome group": "Grant of protection",
+    "Definition": "This scheme resettles UNHCR recognised refugees from anywhere in the world who have a close family member in the UK, who is willing and able to accommodate them. The UK relative does not need to hold refugee status.",
+    "Terms of leave": "Individuals who are resettled are granted Indefinite Leave to Remain and are to be supported by their family sponsors. They have an immediate right to work and have full entitlement to mainstream benefits (if they meet the relevant eligibility criteria for said benefits).",
+    "Time period (if applicable)": "1995 - present"
+  },
+  {
+    "Case outcome": "Resettlement - Vulnerable Persons Resettlement Scheme",
+    "Case outcome group": "Grant of protection",
+    "Definition": "This scheme was launched with the aim of resettling Syrians fleeing the Syrian conflict. It was expanded in September 2015 with a target to resettle 20,000 Syrians in need of protection (in addition to those already settled by the scheme up until that point). In July 2017, the scope was extended to include refugees of other nationalities, who lived in Middle East and North Africa region (specifically: Egypt, Iraq, Jordan, Lebanon and Turkey), and who also fled the conflict in Syria (i.e. after March 2011).",
+    "Terms of leave": "Prior to July 2017, those arriving under this scheme were granted five years' Humanitarian Protection. From July 2017, new arrivals were granted five years’ refugee leave, which affords individuals more entitlements under the law. Those resettled prior to July 2017 may request to change their status from Humanitarian Protection to refugee status. Upon arrival, the family or individual is assigned a caseworker by the local authority, who maintains close contact for the first 12 months to support their well-being and integration. After 5 years of continuous residency, refugees are eligible for Indefinite Leave to Remain.",
+    "Time period (if applicable)": "January 2014 - February 2021"
+  },
+  {
+    "Case outcome": "Resettlement - Vulnerable Children's Resettlement Scheme",
+    "Case outcome group": "Grant of protection",
+    "Definition": "This scheme aimed to resettle up to 3,000 'at-risk’ refugee children and their family members from the Middle East and North Africa (MENA) region.",
+    "Terms of leave": "Prior to July 2017, those arriving under this scheme were granted five years' Humanitarian Protection. From July 2017, new arrivals were granted five years’ refugee leave, which affords individuals more entitlements under the law. Those resettled prior to July 2017 may request to change their status from Humanitarian Protection to refugee status. Upon arrival, the family or individual is assigned a caseworker by the local authority, who maintains close contact for the first 12 months to support their well-being and integration. After 5 years of continuous residency, refugees are eligible for Indefinite Leave to Remain.",
+    "Time period (if applicable)": "April 2016 - February 2021"
+  },
+  {
+    "Case outcome": "Resettlement - UK Resettlement Scheme",
+    "Case outcome group": "Grant of protection",
+    "Definition": "This scheme commenced on 25th February 2021, replacing the VPRS, VCRS and Gateway Protection Programme. The UKRS aims to broaden its geographical focus beyond the Middle East and North Africa to expand resettlement to vulnerable refugees across the world.",
+    "Terms of leave": "Individuals resettled under this scheme are granted Indefinite Leave to Remain. Resettled refugees have immediate right to work and access to mainstream welfare benefits (if they meet the relevant eligibility criteria for said benefits). ",
+    "Time period (if applicable)": "February 2021 - present"
+  },
+  {
+    "Case outcome": "Resettlement - Community Sponsorship Scheme",
+    "Case outcome group": "Grant of protection",
+    "Definition": "This scheme enables community groups, charities, and faith groups to support resettled refugees directly. Prior to 25 February 2021, refugees resettled under Community Sponsorship were reported in the statistics within the total VPRS and VCRS figures; after that date they are reported separately from other schemes.",
+    "Terms of leave": "Individuals resettled under this scheme are granted Indefinite Leave to Remain. Community sponsors provide emotional and practical integration support that empowers families to rebuild their lives in safety, and to become self-sufficient members of their new community. Resettled refugees have immediate right to work and access to mainstream welfare benefits (if they meet the relevant eligibility criteria for said benefits). ",
+    "Time period (if applicable)": "2016 - present"
+  },
+  {
+    "Case outcome": "Resettlement - Afghan Citizens Resettlement Scheme Pathway 1",
+    "Case outcome group": "Grant of Other leave",
+    "Definition": "Under Pathway 1, vulnerable and at-risk individuals who arrived in the UK under the Operation Pitting evacuation programme have been the first to be settled under the ACRS. Eligible people who were notified by the UK government that they had been called forward or specifically authorised for evacuation, but were not able to board flights, will also be offered a place under the scheme if they subsequently come to the UK.",
+    "Terms of leave": "Individuals resettled under this scheme are granted Indefinite Leave to Remain but are not granted refugee status. Resettled individuals have immediate right to work and access to mainstream welfare benefits (if they meet the relevant eligibility criteria for said benefits). Those resettled under this scheme will also be able to apply for British citizenship after 5 years in the UK under existing rules.",
+    "Time period (if applicable)": "January 2022 - present"
+  },
+  {
+    "Case outcome": "Resettlement - Afghan Citizens Resettlement Scheme Pathway 2",
+    "Case outcome group": "Grant of protection",
+    "Definition": "Under Pathway 2, the United Nations High Commissioner for Refugees (UNHCR) will refer vulnerable refugees who have fled Afghanistan for resettlement to the UK. UNHCR will refer individuals in accordance with their standard resettlement submission criteria, which are based on an assessment of protection needs and vulnerabilities.",
+    "Terms of leave": "Individuals resettled under this scheme are granted Indefinite Leave to Remain and refugee status. Resettled refugees have immediate right to work and access to mainstream welfare benefits (if they meet the relevant eligibility criteria for said benefits) as well as access to refugee family reunion. Those resettled under this scheme will also be able to apply for British citizenship after 5 years in the UK under existing rules.",
+    "Time period (if applicable)": "June 2022 - present"
+  },
+  {
+    "Case outcome": "Resettlement - Afghan Citizens Resettlement Scheme Pathway 3",
+    "Case outcome group": "Grant of Other leave",
+    "Definition": "Pathway 3 was designed to offer a route to resettlement for those at risk who supported the UK and international community effort in Afghanistan, as well as those who are particularly vulnerable, such as women and girls at risk and members of minority groups. In the first year of this pathway, the government is considering eligible, at-risk people for resettlement from 3 groups: British Council contractors, GardaWorld contractors and Chevening alumni. There are 1,500 places available in the first year under Pathway 3. This number includes the principal applicants and their eligible family members.",
+    "Terms of leave": "Individuals resettled under this scheme are granted Indefinite Leave to Remain but are not granted refugee status. Resettled individuals have immediate right to work and access to mainstream welfare benefits (if they meet the relevant eligibility criteria for said benefits). Those resettled under this scheme will also be able to apply for British citizenship after 5 years in the UK under existing rules.",
+    "Time period (if applicable)": "June 2022 - present"
+  },
+  {
+    "Case outcome": "Relocation - Afghan Relocations and Assistance Policy",
+    "Case outcome group": "Grant of Other leave",
+    "Definition": "The ARAP provides for Afghan citizens who worked for, or with the UK Government in Afghanistan and their family members, and can include an offer of relocation to the UK for those who are eligible.",
+    "Terms of leave": "Applicants who meet the eligibility criteria for relocation under the ARAP will have an application to the Home office made on their behalf and will be granted entry clearance or settlement subject to biometric enrolment and security checks. Applicants already in the UK with temporary status under the ARAP can apply to convert their status to settlement. Eligible applicants will be able to bring certain family members with them to the UK.",
+    "Time period (if applicable)": "April 2021 - present"
+  }
+]

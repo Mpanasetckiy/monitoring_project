@@ -4,6 +4,8 @@ import React, { useEffect, useState } from "react";
 import { Category } from "../models/category";
 import { Group } from "../models/group";
 
+import definitions from "../data/definitions.json";
+
 import "materialize-css/dist/css/materialize.min.css";
 
 type SidebarProps = {
@@ -11,6 +13,7 @@ type SidebarProps = {
   onChangeBtn: (selectedCategory: Category) => void;
   selectedGroup: Group;
   onChangeGroup: (selectedGroup: Group) => void;
+  onChangeDefinition: (selectedDefinition: string | null) => void;
 };
 
 const Sidebar: React.FC<SidebarProps> = ({
@@ -18,10 +21,26 @@ const Sidebar: React.FC<SidebarProps> = ({
   onChangeBtn,
   selectedGroup,
   onChangeGroup,
+  onChangeDefinition,
 }) => {
   const [selectedCatValue, setSelectedCatValue] =
     useState<Category>(selectedCategory);
   const [selectedGroupValue, setSelectedGroupValue] = useState<Group>(null);
+
+  const findDefinition = (group: Group | Category): string | null => {
+    console.log(group);
+
+    if (group) {
+      const matchingTerm = definitions.find(
+        (term) => term["Case outcome"].toUpperCase() === group.toUpperCase()
+      );
+      console.log(matchingTerm?.Definition);
+
+      return matchingTerm ? matchingTerm.Definition : null;
+    }
+
+    return null;
+  };
 
   const handleCategoryChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const newValue = event.target.value as Category;
@@ -29,12 +48,14 @@ const Sidebar: React.FC<SidebarProps> = ({
     onChangeBtn(newValue);
     setSelectedGroupValue(null);
     onChangeGroup(null);
+    onChangeDefinition(findDefinition(newValue));
   };
 
   const handleGroupChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const newValue = event.target.value as Group;
     setSelectedGroupValue(newValue);
     onChangeGroup(newValue);
+    onChangeDefinition(findDefinition(newValue));
   };
 
   useEffect(() => {
