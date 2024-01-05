@@ -10,6 +10,7 @@ import { Group } from "../models/group";
 
 // Data
 import dataSource from "../data/russia.json";
+import AgeGroup from "./AgeGroup";
 
 const Main: React.FC = () => {
   const [data, setData] = useState<Application[]>(dataSource);
@@ -43,7 +44,7 @@ const Main: React.FC = () => {
         onChangeGroup={handleGroupChange}
         onChangeDefinition={handleDefinitionChange}
       />
-      <div className="content">
+      <div className="content-bars">
         <div className="content__header">
           <h4>{selectedGroup || selectedCategory}</h4>
           {definition && <p>{definition}</p>}
@@ -59,6 +60,9 @@ const Main: React.FC = () => {
             <span className="selector">2022</span>
             <span className="selector">2023</span>
           </div>
+        </div>
+        <div className="bars">
+          <AgeGroup data={data} />
         </div>
       </div>
     </div>
