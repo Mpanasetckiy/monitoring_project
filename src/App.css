@@ -30,6 +30,7 @@ nav .brand-logo {
 .content__range-selector {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .selector {
@@ -43,6 +44,11 @@ nav .brand-logo {
 
 .selector:hover {
   background-color: #f0f0f0;
+}
+
+.selector.active {
+  /* your active styles here */
+  background-color: #4db6ac; /* Change this to the desired active color */
 }
 
 .page-footer {

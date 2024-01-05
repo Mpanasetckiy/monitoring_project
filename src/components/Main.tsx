@@ -9,19 +9,21 @@ import { Category } from "../models/category";
 import { Group } from "../models/group";
 
 // Data
-import dataSource from "../data/russia.json";
+import dataSource from "../data/russiaAll.json";
 import AgeGroup from "./AgeGroup";
 
 const Main: React.FC = () => {
   const [data, setData] = useState<Application[]>(dataSource);
+  const [selectedYear, setSelectedYear] = useState<Number | null>(null);
   const [selectedCategory, setSelectedCategory] = useState<Category>(null);
   const [selectedGroup, setSelectedGroup] = useState<Group>(null);
   const [definition, setDefinition] = useState<string | null>();
 
-  // const myAge = data.filter((application) => {
-  //   return application.Age === "18-29" && application.Sex === "Male";
-  // });
-  // // console.log(myAge);
+  const allYears = Array.from(new Set(dataSource.map((item) => item.Year)));
+
+  const dataByYear = dataSource.filter((application) => {
+    return application["Year"] === selectedYear;
+  });
 
   const handleCategoryChange = (selectedCategory: Category) => {
     setSelectedCategory(selectedCategory);
@@ -33,6 +35,10 @@ const Main: React.FC = () => {
 
   const handleDefinitionChange = (selectedDefinition: string | null) => {
     setDefinition(selectedDefinition);
+  };
+
+  const handleYearChange = (newYear: number) => {
+    setSelectedYear(newYear);
   };
 
   return (
@@ -50,19 +56,19 @@ const Main: React.FC = () => {
           {definition && <p>{definition}</p>}
           <span></span>
           <div className="content__range-selector">
-            <span className="selector">2015</span>
-            <span className="selector">2016</span>
-            <span className="selector">2017</span>
-            <span className="selector">2018</span>
-            <span className="selector">2019</span>
-            <span className="selector">2020</span>
-            <span className="selector">2021</span>
-            <span className="selector">2022</span>
-            <span className="selector">2023</span>
+            {allYears.map((year) => (
+              <span
+                key={year}
+                className={`selector ${selectedYear === year ? "active" : ""}`}
+                onClick={() => handleYearChange(year)}
+              >
+                {year}
+              </span>
+            ))}
           </div>
         </div>
         <div className="bars">
-          <AgeGroup data={data} />
+          <AgeGroup data={dataByYear} />
         </div>
       </div>
     </div>

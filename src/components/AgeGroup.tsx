@@ -29,7 +29,6 @@ const AgeGroup: React.FC<AgeGroupProps> = ({ data }) => {
 
       // Check if the age group is in the chartLabels array
       const index = chartLabels.indexOf(ageGroup);
-      console.log(outcome, "|", caseOutcome);
 
       if (index !== -1 && outcome === caseOutcome) {
         decisionsByAgeGroups[index] += application.Decisions;
@@ -55,11 +54,7 @@ const AgeGroup: React.FC<AgeGroupProps> = ({ data }) => {
     chartLabels,
     caseOutcomes[2]
   );
-  console.log(
-    decisionsByAgeGroupGranted,
-    decisionsByAgeGroupWithdrawn,
-    decisionsByAgeGroupRefused
-  );
+
   return (
     <div className="bar-age">
       <h4>Age Group</h4>

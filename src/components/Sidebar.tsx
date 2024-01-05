@@ -28,13 +28,10 @@ const Sidebar: React.FC<SidebarProps> = ({
   const [selectedGroupValue, setSelectedGroupValue] = useState<Group>(null);
 
   const findDefinition = (group: Group | Category): string | null => {
-    console.log(group);
-
     if (group) {
       const matchingTerm = definitions.find(
         (term) => term["Case outcome"].toUpperCase() === group.toUpperCase()
       );
-      console.log(matchingTerm?.Definition);
 
       return matchingTerm ? matchingTerm.Definition : null;
     }
