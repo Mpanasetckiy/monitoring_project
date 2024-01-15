@@ -11,6 +11,7 @@ import { Group } from "../models/group";
 // Data
 import dataSource from "../data/russiaAll.json";
 import AgeGroup from "./AgeGroup";
+import Total from "./Total";
 
 const Main: React.FC = () => {
   const [data, setData] = useState<Application[]>(dataSource);
@@ -67,7 +68,9 @@ const Main: React.FC = () => {
             ))}
           </div>
         </div>
+
         <div className="bars">
+          <Total data={dataByYear} />
           <AgeGroup data={dataByYear} />
         </div>
       </div>

@@ -8,9 +8,6 @@ type HorizontalBarChartProps = {
   labels: string[];
 };
 
-const chartWidth = 400;
-const chartHeight = 200;
-
 const HorizontalBarChart: React.FC<HorizontalBarChartProps> = ({
   granted,
   withdrawn,
@@ -77,7 +74,7 @@ const HorizontalBarChart: React.FC<HorizontalBarChartProps> = ({
     };
   }, [granted, withdrawn, refused, labels]);
 
-  return <canvas ref={chartRef} width={400} height={chartHeight} />;
+  return <canvas ref={chartRef} />;
 };
 
 export default HorizontalBarChart;

@@ -34,7 +34,7 @@ const AgeGroup: React.FC<AgeGroupProps> = ({ data }) => {
         decisionsByAgeGroups[index] += application.Decisions;
       }
     });
-
+    // console.log(decisionsByAgeGroups);
     return decisionsByAgeGroups;
   };
 
@@ -57,7 +57,7 @@ const AgeGroup: React.FC<AgeGroupProps> = ({ data }) => {
 
   return (
     <div className="bar-age">
-      <h4>Age Group</h4>
+      <h5>AGE GROUP</h5>
       <HorizontalBarChart
         granted={decisionsByAgeGroupGranted}
         withdrawn={decisionsByAgeGroupWithdrawn}
